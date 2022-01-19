@@ -433,14 +433,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚜️ 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 ⚜️', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton(' 𝙰𝚍𝚍 𝙼𝚎 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 𝗝𝗼𝗶𝗻 𝗚𝗿𝗼𝘂𝗽 💠', url='https://t.me/moviebus2')        
+            InlineKeyboardButton('  𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2'),
+            InlineKeyboardButton('  𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ', url='https://t.me/+AMHw_K1wvOM3MTU9')
             ],[
-            InlineKeyboardButton('♻️ 𝗛𝗲𝗹𝗽 ♻️', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝗔𝗯𝗼𝘂𝘁 ♻️', callback_data='about')
+            InlineKeyboardButton(' 𝙷𝙴𝙻𝙿 ', callback_data='help'),
+            InlineKeyboardButton(' 𝙰𝚋𝚘𝚞𝚝 ', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 𝗦𝗲𝗮𝗿𝗰𝗵 𝗛𝗲𝗿𝗲 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -468,7 +469,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons= [[
             InlineKeyboardButton('♻️ 𝗚𝗥𝗢𝗨𝗣 ♻️', url='https://t.me/moviebus2'),
-            InlineKeyboardButton('♥️ 𝗦𝗢𝗨𝗥𝗖𝗘', url='https://github.com/Aadhi000/Ajax')
+            InlineKeyboardButton('♥️ 𝗦𝗢𝗨𝗥𝗖𝗘', url='https://github.com/Samantha-a/Film-Club')
             ],[
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
