@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt="Eva Maria Logo">
+  <img src="assets/Samantha.jpg" alt="Eva Maria Logo">
 </p>
 <h1 align="center">
   <b>ᗩᒍᗩ᙭ Iᗰᗪᗷ ᗷOT ᐯ3</b>
