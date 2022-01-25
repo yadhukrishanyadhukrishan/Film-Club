@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/Samantha.jpg" alt="Eva Maria Logo">
+  <img src="assets/Samantha.jpg" alt="Devil V2 Logo">
 </p>
 <h1 align="center">
-  <b>ᗩᒍᗩ᙭ Iᗰᗪᗷ ᗷOT ᐯ3</b>
+  <b>𝚂𝙰𝙼𝙰𝙽𝚃𝙷𝙰 𝙸𝙼𝙳𝙱 𝙱𝙾𝚃</b>
 </h1>
 
 
@@ -90,6 +90,6 @@ python3 bot.py
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝐀𝐚𝐝𝐡𝐢](https://t.me/BKC0001)                                                                                                                                        
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [Albin](https://t.me/albintko)                                                                                                                                        
 𝙶𝚁𝙾𝚄𝙿 ›› [𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝](https://t.me/Movies_World02)                                             
 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝐋𝐚𝐭𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐮𝐛](https://t.me/joinchat/9Mq2rjj9YDk0YmZh)
