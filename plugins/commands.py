@@ -45,7 +45,8 @@ async def start(client, message):
             InlineKeyboardButton(' 𝙷𝙴𝙻𝙿 ', callback_data='help'),
             InlineKeyboardButton(' 𝙰𝚋𝚘𝚞𝚝 ', callback_data='about')
             ],[
-            InlineKeyboardButton(' Owner ', url='https://t.me/albintko'),
+            InlineKeyboardButton(' Owner ', url='https://t.me/albintko')
+            ],[
             InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -90,6 +91,7 @@ async def start(client, message):
             InlineKeyboardButton(' 𝙰𝚋𝚘𝚞𝚝 ', callback_data='about') 
             ],[
             InlineKeyboardButton(' Owner ', url='https://t.me/albintko')
+            ],[
             InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
