@@ -55,11 +55,13 @@ Song Download Module, For Those Who Love Music
 
 <b>🎈 Command 🎈</b>
 
-- /song [Song Name] - To Download song 😁
+- /song [Song Name] - To Download Music 😁
 
 <b>🌀Usage🌀</b>
 - Can Be Used By Everyone
-- Work in bot pm
+- Works in bot pm
+
+Made By @albintko"""
 
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>Pin :</b>
