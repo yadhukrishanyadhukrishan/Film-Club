@@ -61,7 +61,7 @@ Song Download Module, For Those Who Love Music
 - Can Be Used By Everyone
 - Works in bot pm
 
-Made By @Lucifer_DevilZ"""
+Made By @albintko"""
     PIN_TXT ="""<b>PIN MODULE</b>
 <b>Pin :</b>
 
