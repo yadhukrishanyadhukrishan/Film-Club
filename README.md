@@ -98,6 +98,6 @@ python3 bot.py
 • /broadcast - to broadcast a message to all Eva Maria users
 ```
 
-𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [Albin](https://t.me/albintko)                                                                                                                                        
-𝙶𝚁𝙾𝚄𝙿 ›› [𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐨𝐫𝐥𝐝](https://t.me/Movies_World02)                                             
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝐋𝐚𝐭𝐞𝐬𝐭 𝐌𝐨𝐯𝐢𝐞𝐬 𝐇𝐮𝐛](https://t.me/joinchat/9Mq2rjj9YDk0YmZh)
+𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ›› [𝐀𝐋𝐁𝐈𝐍](https://t.me/albintko)                                                                                                                                        
+𝙶𝚁𝙾𝚄𝙿 ›› [𝗙𝗶𝗹𝗶𝗺 𝗖𝗹𝘂𝗯](https://t.me/moviebus2)                                             
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ›› [𝐅𝐂 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 | Super Sharanya](https://t.me/+AMHw_K1wvOM3MTU9)
