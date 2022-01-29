@@ -53,14 +53,14 @@ def a(client, message):
             #     m.edit("Exceeded 30mins cap")
             #     return
 
-            performer = f"[@Lucifer_DevilZ]"
+            performer = f"[@Devil]"
             thumb_name = f'thumb{message.message_id}.jpg'
             thumb = requests.get(thumbnail, allow_redirects=True)
             open(thumb_name, 'wb').write(thumb.content)
 
         except Exception as e:
             print(e)
-            m.edit('𝐅𝐨𝐮𝐧𝐝 𝐍𝐨𝐭𝐡𝐢𝐧𝐠. 𝐓𝐫𝐲 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐓𝐡𝐞 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐀 𝐋𝐢𝐭𝐭𝐥𝐞 😐')
+            m.edit('𝐅𝐨𝐮𝐧𝐝 𝐍𝐨𝐭𝐡𝐢𝐧𝐠. 𝐓𝐫𝐲 𝐂𝐡𝐚𝐧𝐠𝐢𝐧𝐠 𝐓𝐡𝐞 𝐒𝐩𝐞𝐥𝐥𝐢𝐧𝐠 𝐀 𝐋𝐢𝐭𝐭𝐥𝐞 😓')
             return
     except Exception as e:
         m.edit(
@@ -68,7 +68,7 @@ def a(client, message):
         )
         print(str(e))
         return
-    m.edit("`Uploading Your File,Please Wait for Some Seconds...`[🎧](https://telegra.ph/file/ecb41bea0f8ac32e4b374.jpg)")
+    m.edit("`Uploading Your File,Please Wait for Some Seconds...`[🎧](https://telegra.ph/file/e97ca723aff02c29209b0.jpg)")
     try:
         with youtube_dl.YoutubeDL(ydl_opts) as ydl:
             info_dict = ydl.extract_info(link, download=False)
@@ -83,7 +83,7 @@ def a(client, message):
         m.delete()
         message.delete()
     except Exception as e:
-        m.edit('**An Error Occured. Please Report This To @Lucifer_DevilZ!![🎧](https://telegra.ph/file/0254a014cb78c3cca2df0.jpg)**')
+        m.edit('**An Error Occured. Please Report This To @Devil!![🎧](https://telegra.ph/file/e97ca723aff02c29209b0.jpg)**')
         print(e)
     try:
         os.remove(audio_file)
