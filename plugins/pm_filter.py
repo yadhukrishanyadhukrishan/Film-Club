@@ -1115,7 +1115,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
      elif query.data == "newdata":
 
         buttons = [[
-
             InlineKeyboardButton('« Back', callback_data='help')
         )
     elif query.data == "songs":
