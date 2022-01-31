@@ -1090,7 +1090,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.ADMIN_TXT,
             reply_markup=reply_markup,
             parse_mode='html'       
-        ]]
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
 
         await query.message.edit_text(
