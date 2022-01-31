@@ -1089,14 +1089,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.message.edit_text(
             text=script.ADMIN_TXT,
             reply_markup=reply_markup,
-            parse_mode='html'
-        )
-     elif query.data == "newdata":
-
-        buttons = [[
-
-            InlineKeyboardButton('« Back', callback_data='help')
-
+            parse_mode='html'       
         ]]
 
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1109,10 +1102,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
             parse_mode='html'
 
-        )
-    elif query.data == "abook":
-        buttons = [[
-            InlineKeyboardButton('« 𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1120,6 +1109,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
+        )
+    elif query.data == "abook":
+        buttons = [[
+            InlineKeyboardButton('« 𝖡𝖺𝖼𝗄', callback_data='help')
+        )
+     elif query.data == "newdata":
+
+        buttons = [[
+
+            InlineKeyboardButton('« Back', callback_data='help')
         )
     elif query.data == "songs":
         buttons = [[
