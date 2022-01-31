@@ -737,7 +737,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("Vɪᴅᴇᴏ ", callback_data='video')
             ],[
             InlineKeyboardButton(' Pɪɴ', callback_data='pin'), 
-            InlineKeyboardButton('🖥 Pᴀsᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton(' Pᴀsᴛᴇ', callback_data='pastes'),
             InlineKeyboardButton("Iᴍᴀɢᴇ ", callback_data='image')
             ],[
             InlineKeyboardButton('Fᴜɴ', callback_data='fun'), 
@@ -783,7 +783,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("Vɪᴅᴇᴏ ", callback_data='video')
             ],[
             InlineKeyboardButton(' Pɪɴ', callback_data='pin'), 
-            InlineKeyboardButton('🖥 Pᴀsᴛᴇ', callback_data='pastes'),
+            InlineKeyboardButton(' Pᴀsᴛᴇ', callback_data='pastes'),
             InlineKeyboardButton("Iᴍᴀɢᴇ ", callback_data='image')
             ],[
             InlineKeyboardButton('Fᴜɴ', callback_data='fun'), 
