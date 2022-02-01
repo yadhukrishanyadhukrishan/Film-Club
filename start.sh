@@ -8,5 +8,5 @@ else
 fi
 cd /Film-Club
 pip3 install -U -r requirements.txt
-echo "𝚂𝙰𝙼𝙰𝙽𝚃𝙷𝙰 𝚆𝚘𝚛𝚔𝚒𝚗𝚐.....👀"
+echo "Starting Bot....👀"
 python3 bot.py
