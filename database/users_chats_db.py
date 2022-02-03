@@ -1,6 +1,6 @@
 # https://github.com/odysseusmax/animated-lamp/blob/master/bot/database/database.py
 import motor.motor_asyncio
-from info import SINGLE_BUTTON, P_TTI_SHOW_OFF, PROTECT_CONTENT, IMDB, SPELL_CHECK_REPLY, MELCOW_NEW_USERS, IMDB_TEMPLATE
+from info import DATABASE_NAME, DATABASE_URI, IMDB, IMDB_TEMPLATE, MELCOW_NEW_USERS, P_TTI_SHOW_OFF, SINGLE_BUTTON, SPELL_CHECK_REPLY, PROTECT_CONTENT
 
 class Database:
     
@@ -102,7 +102,6 @@ class Database:
             )
         await self.grp.update_one({'id': int(id)}, {'$set': {'chat_status': chat_status}})
         
-
     async def update_settings(self, id, settings):
         await self.grp.update_one({'id': int(id)}, {'$set': {'settings': settings}})
         
