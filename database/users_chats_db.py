@@ -102,6 +102,7 @@ class Database:
             )
         await self.grp.update_one({'id': int(id)}, {'$set': {'chat_status': chat_status}})
         
+
     async def update_settings(self, id, settings):
         await self.grp.update_one({'id': int(id)}, {'$set': {'settings': settings}})
         
