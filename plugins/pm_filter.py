@@ -696,10 +696,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await massage.reply_video(
-            video="https://te.legra.ph/file/c01ca4adfc54bb88c8bfb.mp4",
-            caption="START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME)",
-        )
     elif query.data == "photo":
         buttons = [[
             InlineKeyboardButton(text="𝖡𝗋𝗂𝗀𝗍𝗁", callback_data="bright"),
