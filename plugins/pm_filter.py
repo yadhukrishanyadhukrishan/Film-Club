@@ -698,7 +698,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await massage.reply_video(
             video="https://te.legra.ph/file/c01ca4adfc54bb88c8bfb.mp4",
-            caption="/start"
+            caption="Samantha",
         )
     elif query.data == "photo":
         buttons = [[
