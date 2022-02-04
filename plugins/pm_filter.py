@@ -732,6 +732,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
+            [[
             InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
             InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
             InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
@@ -764,11 +765,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
             InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort')
             ],[
-            InlineKeyboardButton("𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾", callback_data='newdata'),
-            InlineKeyboardButton('𝖦𝗍𝗋𝖺𝗇𝗌', callback_data='gtrans')
-            ],[
-            InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
+            InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans'),
+            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            ],[
+            InlineKeyboardButton('✶ 𝙱𝙰𝙲𝙺 ✶', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -778,6 +779,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "hellp":
         buttons = [[
+            [[
             InlineKeyboardButton('𝙼𝙰𝙽𝚄𝙴𝙻 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='manuelfilter'),
             InlineKeyboardButton('𝙰𝚄𝚃𝙾 𝙵𝙸𝙻𝚃𝙴𝚁', callback_data='autofilter'),
             InlineKeyboardButton('𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙸𝙾𝙽𝚂', callback_data='coct')
@@ -810,11 +812,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙰𝚄𝙳𝙸𝙾-𝙱𝙾𝙾𝙺', callback_data='abook'),
             InlineKeyboardButton('𝚄𝚁𝙻-𝚂𝙷𝙾𝚁𝚃', callback_data='urlshort')
             ],[
-            InlineKeyboardButton("𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾", callback_data='newdata'),
-            InlineKeyboardButton('𝖦𝗍𝗋𝖺𝗇𝗌', callback_data='gtrans')
-            ],[
-            InlineKeyboardButton('𝙷𝙾𝙼𝙴', callback_data='start'),
+            InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans'),
+            InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            ],[
+            InlineKeyboardButton('✶ 𝙱𝙰𝙲𝙺 ✶', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.answer("𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗆𝗒 𝖧𝖾𝗅𝗉 𝗆𝗈𝖽𝗎𝗅𝖾")
