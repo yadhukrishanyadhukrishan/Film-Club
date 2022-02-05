@@ -179,9 +179,14 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌')
-            await asyncio.sleep(10)
-            await k.delete()
+            k = await client.send_video(
+        chat_id=message.chat.id,
+        video="https://telegra.ph/file/f0a2060433ce4fd1d2826.mp4",
+        caption=f"""𝙷𝙴𝚈..<b>{message.from_user.mention}</b>
+<b>𝙲𝙷𝙴𝙲𝙺 𝚃𝙷𝙴 𝚂𝙿𝙴𝙻𝙻𝙸𝙽𝙶 𝙾𝙵 𝚈𝙾𝚄𝚁 𝚂𝙴𝙰𝚁𝙲𝙷𝙴𝙳 𝙼𝙾𝚅𝙸𝙴</b>
+
+<b>𝙾𝚁 𝚃𝙷𝙴 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴💌</b>""",
+        reply_to_message_id=message.message_id)
 
 
 @Client.on_callback_query()
