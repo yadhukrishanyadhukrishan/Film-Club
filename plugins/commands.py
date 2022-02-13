@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat=''),
             InlineKeyboardButton(' 𝙰𝚋𝚘𝚞𝚝 ', callback_data='about')
             ],[
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
+            InlineKeyboardButton('jjdnn', callback_data='help'),
             InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2')
             ],[
             InlineKeyboardButton(' 𝙾𝚠𝚗𝚎𝚛 ', url='https://t.me/albintko'),
@@ -91,7 +91,7 @@ async def start(client, message):
             InlineKeyboardButton(' 𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 ', switch_inline_query_current_chat=''),
             InlineKeyboardButton(' 𝙰𝚋𝚘𝚞𝚝 ', callback_data='about')
             ],[
-            InlineKeyboardButton('𝙷𝙴𝙻𝙿', callback_data='help'),
+            InlineKeyboardButton('hjjsjs', callback_data='help'),
             InlineKeyboardButton(' 𝙶𝚛𝚘𝚞𝚙 ', url='https://t.me/moviebus2')
             ],[
             InlineKeyboardButton(' 𝙾𝚠𝚗𝚎𝚛 ', url='https://t.me/albintko'),
